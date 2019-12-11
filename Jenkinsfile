@@ -3,7 +3,7 @@ pipeline {
   stages {
 
     // Note: Add build stage here
-    ('Build') {
+    stage('Build') {
       agent {
         label "lead-toolchain-skaffold"
       }
